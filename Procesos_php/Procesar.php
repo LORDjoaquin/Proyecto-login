@@ -8,7 +8,7 @@ if(!empty($_POST['username']) && !empty($_POST['password'])){
 		exit;
 		echo "Accedido";
 		$error="ok";	
-	}else if($username=="admin" && $password=="asd"){
+	}else if($username=="administrador" && $password=="asd"){
 		echo "Accedido";
 		$error="ok";	
 			header("Location:../administrador.php");
